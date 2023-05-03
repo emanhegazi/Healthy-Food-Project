@@ -1,0 +1,822 @@
+body{
+    background-color: whitesmoke;
+    background-attachment: scroll;
+}
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: montserrat;
+}
+nav{
+    background: white;
+    height: 67px;
+    width: 100%;
+}
+nav img{
+    width: 200px;
+    height: 70px;
+    position: absolute;
+    top: 20px;
+    left: 150px;
+}
+nav ul{
+    position: absolute;
+    top: 30px;
+    left: 500px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 5px;
+}
+nav ul li a{
+    color: black;
+    font-size: 17px;
+    padding: 7px 13px;
+    text-transform: uppercase;
+}
+.active, a:hover{
+    color: red;
+    transition: .1s;
+}
+.head1{
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    font-size: 60px;
+}
+.fruit-salad{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 120px;
+    left: 700px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 20px 30px grey;
+}
+.fruit-salad:hover{
+    box-shadow: 10px 20px 30px red;
+    top: 105px ;
+    transition: .2s;
+}
+.arugula-salad{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 250px;
+    left: 1000px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 20px 30px grey;
+}
+.arugula-salad:hover{
+    box-shadow: 10px 20px 30px red;
+    top: 230px ;
+    transition: .2s;
+}
+.tomato-feta-green-bean-salad{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 430px;
+    left: 700px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 20px 30px grey;
+}
+.tomato-feta-green-bean-salad:hover{
+    box-shadow: 10px 20px 30px red;
+    top: 410px ;
+    transition: .2s;
+}
+.avocado-salad-with-tomatoes-and-herbs{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 560px;
+    left: 1000px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 20px 30px grey;
+}
+.avocado-salad-with-tomatoes-and-herbs:hover{
+    box-shadow: 10px 20px 30px red;
+    top: 540px ;
+    transition: .2s;
+}
+.corn-tomato-avocado-salad{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 740px;
+    left: 700px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 20px 30px grey;
+}
+.corn-tomato-avocado-salad:hover{
+    box-shadow: 10px 20px 30px red;
+    top: 720px ;
+    transition: .2s;
+}
+.grilled-vegetable-salad{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 870px;
+    left: 1000px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 20px 30px grey;
+}
+.grilled-vegetable-salad:hover{
+    box-shadow: 10px 20px 30px red;
+    top: 850px;
+    transition: .2s;
+}
+.roasted-beet-goat-cheese-salad{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 1050px;
+    left: 700px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 20px 30px grey;
+}
+.roasted-beet-goat-cheese-salad:hover{
+    box-shadow: 10px 20px 30px red;
+    top: 1030px ;
+    transition: .2s;
+}
+.greek-salad{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 1180px;
+    left: 1000px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 20px 30px grey;
+}
+.greek-salad:hover{
+    box-shadow: 10px 20px 30px red;
+    top: 1160px ;
+    transition: .2s;
+}
+.healthy-greek-salad{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 1360px;
+    left: 700px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 20px 30px grey;
+}
+.healthy-greek-salad:hover{
+    box-shadow: 10px 20px 30px red;
+    top: 1340px ;
+    transition: .2s;
+}
+.classic-caesar-salad{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 1490px;
+    left: 1000px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 20px 30px grey;   
+}
+.classic-caesar-salad:hover{
+    box-shadow: 10px 20px 30px red;
+    top: 1470px ;
+    transition: .2s;
+}
+.crispy-chicken-salad{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 1670px;
+    left: 700px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 20px 30px grey;
+}
+.crispy-chicken-salad:hover{
+    box-shadow: 10px 20px 30px red;
+    top: 1650px ;
+    transition: .2s;
+}
+.grilled-chicken-salad{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 1800px;
+    left: 1000px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 20px 30px grey;   
+}
+.grilled-chicken-salad:hover{
+    box-shadow: 10px 20px 30px red;
+    top: 1780px ;
+    transition: .2s;
+}
+.crispy-chicken-caesar-salad{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 1980px;
+    left: 700px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 20px 30px grey;
+}
+.crispy-chicken-caesar-salad:hover{
+    box-shadow: 10px 20px 30px red;
+    top: 1960px ;
+    transition: .2s;
+}
+.healthy-ranch-chicken-salad{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 2110px;
+    left: 1000px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 20px 30px grey;   
+}
+.healthy-ranch-chicken-salad:hover{
+    box-shadow: 10px 20px 30px red;
+    top: 2090px ;
+    transition: .2s;
+}
+.chicken-salad-lettuce-wraps{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 2290px;
+    left: 700px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 20px 30px grey;
+}
+.chicken-salad-lettuce-wraps:hover{
+    box-shadow: 10px 20px 30px red;
+    top: 2270px ;
+    transition: .2s;
+}
+.healthy-chicken-caeser-salad{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 2420px;
+    left: 1000px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 20px 30px grey;   
+}
+.healthy-chicken-caeser-salad:hover{
+    box-shadow: 10px 20px 30px red;
+    top: 2400px ;
+    transition: .2s;
+}
+.salamon-avocado-salad{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 2600px;
+    left: 700px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 20px 30px grey;
+}
+.salamon-avocado-salad:hover{
+    box-shadow: 10px 20px 30px red;
+    top: 2580px ;
+    transition: .2s;
+}
+.smoked-salamon-salad{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 2730px;
+    left: 1000px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 20px 30px grey;   
+}
+.smoked-salamon-salad:hover{
+    box-shadow: 10px 20px 30px red;
+    top: 2710px ;
+    transition: .2s;
+}
+.img1{
+    position: absolute;
+    top: 380px;
+    left: 110px;
+    border-radius: 50px;
+}
+.img2{
+    position: absolute;
+    top: 780px;
+    left: 110px;
+    border-radius: 50px;
+}
+.img3{
+    position: absolute;
+    top: 1180px;
+    left: 110px;
+    border-radius: 50px;
+}
+.img4{
+    position: absolute;
+    top: 1580px;
+    left: 110px;
+    border-radius: 50px;
+}
+.img5{
+    position: absolute;
+    top: 1980px;
+    left: 110px;
+    border-radius: 50px;
+}
+.img6{
+    position: absolute;
+    top: 2380px;
+    left: 110px;
+    border-radius: 50px;
+}
+.head2{
+    position: absolute;
+    top: 3200px;
+    left: 230px;
+    font-size: 60px;
+}
+.peanut-butter-oatmeal-bowl{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 3200px;
+    left: 700px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 20px 30px grey;
+}
+.peanut-butter-oatmeal-bowl:hover{
+    box-shadow: 10px 20px 30px red;
+    top: 3180px ;
+    transition: .2s;
+}
+.banana-berry-avcai-bowl{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 3350px;
+    left: 1000px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 20px 30px grey;   
+}
+.banana-berry-avcai-bowl:hover{
+    box-shadow: 10px 20px 30px red;
+    top: 3330px ;
+    transition: .2s;
+}
+.mascarpone-berries-toast{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 3520px;
+    left: 700px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 20px 30px grey;
+}
+.mascarpone-berries-toast:hover{
+    box-shadow: 10px 20px 30px red;
+    top: 3500px ;
+    transition: .2s;
+}
+.fried-eggs-and-avocado-toast{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 3670px;
+    left: 1000px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 20px 30px grey;   
+}
+.fried-eggs-and-avocado-toast:hover{
+    box-shadow: 10px 20px 30px red;
+    top: 3650px ;
+    transition: .2s;
+}
+.avocado-egg-toast{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 3840px;
+    left: 700px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 20px 30px grey;
+}
+.avocado-egg-toast:hover{
+    box-shadow: 10px 20px 30px red;
+    top: 3820px ;
+    transition: .2s;
+}
+.avocado-toast-with-egg{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 3980px;
+    left: 1000px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 20px 30px grey;   
+}
+.avocado-toast-with-egg:hover{
+    box-shadow: 10px 20px 30px red;
+    top: 3960px ;
+    transition: .2s;
+}
+.omelet-with-spinach{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 4160px;
+    left: 700px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 20px 30px grey;
+}
+.omelet-with-spinach:hover{
+    box-shadow: 10px 20px 30px red;
+    top: 4140px ;
+    transition: .2s;
+}
+.pesto-scrambled-eggs-toast{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 4300px;
+    left: 1000px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 20px 30px grey;   
+}
+.pesto-scrambled-eggs-toast:hover{
+    box-shadow: 10px 20px 30px red;
+    top: 4280px ;
+    transition: .2s;
+}
+.shakshuka-with-feta-avocado-salad{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 4470px;
+    left: 700px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 20px 30px grey;
+}
+.shakshuka-with-feta-avocado-salad:hover{
+    box-shadow: 10px 20px 30px red;
+    top: 4450px ;
+    transition: .2s;
+}
+.smoked-salamon-with-poached-eggs-toast{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 4610px;
+    left: 1000px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 20px 30px grey;   
+}
+.smoked-salamon-with-poached-eggs-toast:hover{
+    box-shadow: 10px 20px 30px red;
+    top: 4590px ;
+    transition: .2s;
+}
+.img7{
+    position: absolute;
+    top: 3330px;
+    left: 110px;
+    border-radius: 50px;
+}
+.img8{
+    position: absolute;
+    top: 3730px;
+    left: 110px;
+    border-radius: 50px;
+}
+.img9{
+    position: absolute;
+    top: 4130px;
+    left: 110px;
+    border-radius: 50px;
+}
+.img10{
+    position: absolute;
+    top: 4530px;
+    left: 110px;
+    border-radius: 50px;
+}
+.salamon-sushi-bowl{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 4780px;
+    left: 700px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 20px 30px grey;
+}
+.salamon-sushi-bowl:hover{
+    box-shadow: 10px 20px 30px red;
+    top: 4760px ;
+    transition: .2s;
+}
+.teriyaki-salamon-bowl{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 4930px;
+    left: 1000px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 20px 30px grey;   
+}
+.teriyaki-salamon-bowl:hover{
+    box-shadow: 10px 20px 30px red;
+    top: 4910px ;
+    transition: .2s;
+}
+.butter-roasted-salamon-with-potatoes-asparagus{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 5090px;
+    left: 700px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 20px 30px grey;
+}
+.butter-roasted-salamon-with-potatoes-asparagus:hover{
+    box-shadow: 10px 20px 30px red;
+    top: 5070px ;
+    transition: .2s;
+}
+.chicken-lettuce-wraps{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 5250px;
+    left: 1000px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 20px 30px grey;   
+}
+.chicken-lettuce-wraps:hover{
+    box-shadow: 10px 20px 30px red;
+    top: 5230px ;
+    transition: .2s;
+}
+.chicken-skewer-salad{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 5410px;
+    left: 700px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 20px 30px grey;
+}
+.chicken-skewer-salad:hover{
+    box-shadow: 10px 20px 30px red;
+    top: 5390px ;
+    transition: .2s;
+}
+.chicken-with-vegetables{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 5570px;
+    left: 1000px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 20px 30px grey;   
+}
+.chicken-with-vegetables:hover{
+    box-shadow: 10px 20px 30px red;
+    top: 5550px ;
+    transition: .2s;
+}
+.greek-chicken-meatballs{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 5730px;
+    left: 700px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 20px 30px grey;
+}
+.greek-chicken-meatballs:hover{
+    box-shadow: 10px 20px 30px red;
+    top: 5710px ;
+    transition: .2s;
+}
+.chicken-and-cauliflower{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 5890px;
+    left: 1000px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 20px 30px grey;   
+}
+.chicken-and-cauliflower:hover{
+    box-shadow: 10px 20px 30px red;
+    top: 5870px ;
+    transition: .2s;
+}
+.grilled-garlic-and-herb-chicken-and-veggies{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 6050px;
+    left: 700px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 20px 30px grey;
+}
+.grilled-garlic-and-herb-chicken-and-veggies:hover{
+    box-shadow: 10px 20px 30px red;
+    top: 6030px ;
+    transition: .2s;
+}
+.chicken-and-broccoli{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 6210px;
+    left: 1000px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 20px 30px grey;   
+}
+.chicken-and-broccoli:hover{
+    box-shadow: 10px 20px 30px red;
+    top: 6190px ;
+    transition: .2s;
+}
+.grilled-chicken-and-vegetables{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 6370px;
+    left: 700px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 20px 30px grey;
+}
+.grilled-chicken-and-vegetables:hover{
+    box-shadow: 10px 20px 30px red;
+    top: 6350px ;
+    transition: .2s;
+}
+.skinny-chicken-and-roasted-potato-bowl{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 6530px;
+    left: 1000px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 20px 30px grey;   
+}
+.skinny-chicken-and-roasted-potato-bowl:hover{
+    box-shadow: 10px 20px 30px red;
+    top: 6510px ;
+    transition: .2s;
+}
+.herby-lemon-chicken-skewers{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 6690px;
+    left: 700px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 20px 30px grey;
+}
+.herby-lemon-chicken-skewers:hover{
+    box-shadow: 10px 20px 30px red;
+    top: 6670px ;
+    transition: .2s;
+}
+.creamy-spinach-turkey-meatballs{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 6850px;
+    left: 1000px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 20px 30px grey;   
+}
+.creamy-spinach-turkey-meatballs:hover{
+    box-shadow: 10px 20px 30px red;
+    top: 6830px ;
+    transition: .2s;
+}
+.skirt-steak-with-avocado-chimichurri{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 7010px;
+    left: 700px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 20px 30px grey;
+}
+.skirt-steak-with-avocado-chimichurri:hover{
+    box-shadow: 10px 20px 30px red;
+    top: 6990px ;
+    transition: .2s;
+}
+.steak-salad-with-grilled-corn{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 7160px;
+    left: 1000px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 20px 30px grey;   
+}
+.steak-salad-with-grilled-corn:hover{
+    box-shadow: 10px 20px 30px red;
+    top: 7140px ;
+    transition: .2s;
+}
+.img11{
+    position: absolute;
+    top: 4930px;
+    left: 110px;
+    border-radius: 50px;
+}
+.img12{
+    position: absolute;
+    top: 5330px;
+    left: 110px;
+    border-radius: 50px;
+}
+.img13{
+    position: absolute;
+    top: 5730px;
+    left: 110px;
+    border-radius: 50px;
+}
+.img14{
+    position: absolute;
+    top: 6130px;
+    left: 110px;
+    border-radius: 50px;
+}
+.img15{
+    position: absolute;
+    top: 6530px;
+    left: 110px;
+    border-radius: 50px;
+}
+.img16{
+    position: absolute;
+    top: 6930px;
+    left: 110px;
+    border-radius: 50px;
+}
+footer{
+    position:absolute;
+    color: white;
+    top: 7500px;
+    width: 100%;
+    background-color: darkslategrey;
+    line-height: 3;
+    text-align: center;
+}
